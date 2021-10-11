@@ -1,16 +1,8 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+.bg-lgbt {
+  background: rgb(237,169,4);
+  background: linear-gradient(90deg, rgba(237,169,4,1) 0%, rgba(244,114,6,1) 33%, rgba(104,47,155,1) 66%, rgba(21,7,244,1) 100%);
 }
