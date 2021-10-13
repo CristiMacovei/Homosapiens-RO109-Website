@@ -7,7 +7,7 @@ class MyDocument extends Document {
         <Head>
           
         </Head>
-        <body className='bg-gradient-to-r from-yellow-400 via-urmom to-blue-700'>
+        <body className='bg-gradient-to-r from-yellow-500 via-urmom to-blue-700'>
           <Main />
           <NextScript />
         </body>
